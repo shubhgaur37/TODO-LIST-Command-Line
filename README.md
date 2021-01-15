@@ -21,14 +21,14 @@ change light bulb
 
     The date when the todo is marked as completed is recorded in the `yyyy-mm-dd` format (ISO 8601). For example, a date like `15th August, 2020` is represented as `2020-08-15`.
 
-4.  The application must open the files `todo.txt` and `done.txt` from where the app is run, and not where the app is located. For example, if we invoke the app like this:
+4.  The application open the files `todo.txt` and `done.txt` from where the app is run, and not where the app is located. For example, if we invoke the app like this:
 
     ```
     $ cd /path/to/plans
     $ /path/to/apps/todo ls
     ```
 
-    The application should look for the text files in `/path/to/plans`, since that is the user’s current directory.
+    The application looks for the text files in `/path/to/plans`, since that is the user’s current directory.
 
 ## Usage
 
