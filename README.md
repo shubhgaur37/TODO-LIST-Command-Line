@@ -40,16 +40,16 @@ Executing the command without any arguments, or with a single argument `help` pr
 $ python todo.py help
 Usage :-
 $ python todo.py "todo item"  # Add a new todo
-$ python todo.py ls               # Show remaining todos
+$ python todo.py ls           # Show remaining todos
 $ python todo.py NUMBER       # Delete a todo
-$ python todo.py NUMBER      # Complete a todo
-$ python todo.py help             # Show usage
-$ python todo.py report           # Statistics
+$ python todo.py NUMBER       # Complete a todo
+$ python todo.py help         # Show usage
+$ python todo.py report       # Statistics
 ```
 
 ### 2. List all pending todos
 
-Use the `ls` command to see all the todos that are not yet complete. The most recently added todo should be displayed first.
+Use the `ls` command to see all the todos that are not yet complete. The most recently added todo is displayed first.
 
 ```
 $ python todo.py ls
@@ -75,7 +75,7 @@ $ python todo.py del 3
 Deleted todo #3
 ```
 
-Attempting to delete a non-existent todo item should display an error message.
+Attempting to delete a non-existent todo item displays an error message.
 
 ```
 $ python todo.py del 5
