@@ -1,8 +1,7 @@
 ## Specification
 
-1. The app can be run in the console with `todo`.
-
-2. The app reads from and write to a `todo.txt` text file. Each todo item occupies a single line in this file. Here is an example file that has 2 todo items.
+1. The app can be run in the console with python todo.py 'option'
+3. The app reads from and write to a `todo.txt` text file. Each todo item occupies a single line in this file. Here is an example file that has 2 todo items.
 
 ```txt
 water the plants
